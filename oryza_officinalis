@@ -1,0 +1,4 @@
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/008/326/285/GCA_008326285.1_Oryza_officinalis_v1.0/GCA_008326285.1_Oryza_officinalis_v1.0_genomic.fna.gz    //Reference genome 
+wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/DRR222/DRR222089/DRR222089_1.fastq.gz                  //read 1 
+wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/DRR222/DRR222089/DRR222089_2.fastq.gz                  //read 2 
+
