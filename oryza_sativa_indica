@@ -2,3 +2,4 @@ wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/DRR527/DRR527268/DRR527268_2.fastq.g
 wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/DRR527/DRR527268/DRR527268_1.fastq.gz          //short reads downlaod fastq2
 wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/001/623/345/GCA_001623345.3_ZS97RS3/GCA_001623345.3_ZS97RS3_genomic.fna.gz //referenece genome downaloaded 
 nohup bwa index  GCA_001623345.3_ZS97RS3_genomic.fna.gz > bwa_index_log.txt 2>&1 &          // indexed the referenec genome 
+nohup bwa mem GCA_001623345.3_ZS97RS3_genomic.fna.gz DRR527268_1.fastq.gz  DRR527268_2.fastq.gz > aligned_oryza_I_output.sam 2> bwa_mem_error.log &                                                     //ALigned the paired reads to the reference genome 
