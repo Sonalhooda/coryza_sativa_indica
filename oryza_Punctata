@@ -1,0 +1,4 @@
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/573/905/GCA_000573905.2_OpunRS2/GCA_000573905.2_OpunRS2_genomic.fna.gz  //reference genome 
+wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR190/005/SRR19025805/SRR19025805_1.fastq.gz       //read1 
+wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR190/005/SRR19025805/SRR19025805_2.fastq.gz       //read2 
+
