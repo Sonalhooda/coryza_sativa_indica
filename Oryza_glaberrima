@@ -1,0 +1,4 @@
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/147/395/GCF_000147395.1_OglaRS2/GCF_000147395.1_OglaRS2_genomic.fna.gz    //refernce geneome 
+wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR293/055/SRR29383155/SRR29383155_2.fastq.gz                                       //read 1 
+wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR293/055/SRR29383155/SRR29383155_1.fastq.gz                                       //read 2 
+
