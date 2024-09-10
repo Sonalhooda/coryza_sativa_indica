@@ -1,0 +1,4 @@
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/576/495/GCA_000576495.2_OgluRS3/GCA_000576495.2_OgluRS3_genomic.fna.gz     //reference genome 
+wget wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR190/065/SRR19032665/SRR19032665_1.fastq.gz       //Read 1 
+wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR190/065/SRR19032665/SRR19032665_2.fastq.gz            //Read 2 
+
