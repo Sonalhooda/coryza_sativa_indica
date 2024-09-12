@@ -1,0 +1,3 @@
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/019/925/245/GCA_019925245.2_MQ-UA-ANU_Oaus-KR_2.0/GCA_019925245.2_MQ-UA-ANU_Oaus-KR_2.0_genomic.fna.gz 
+wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR150/098/SRR15057298/SRR15057298_1.fastq.gz
+ wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR150/098/SRR15057298/SRR15057298_2.fastq.gz
