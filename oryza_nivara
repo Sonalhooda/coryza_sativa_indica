@@ -1,4 +1,4 @@
 wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/576/065/GCA_000576065.2_OnivRS2/GCA_000576065.2_OnivRS2_genomic.fna.gz    //reference genome 
-wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR191/001/SRR19177401/SRR19177401_2.fastq.gz            //read 1 
-wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR191/001/SRR19177401/SRR19177401_1.fastq.gz           //read 2 
+wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR191/025/SRR19177225/SRR19177225_2.fastq.gz
+wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR191/025/SRR19177225/SRR19177225_1.fastq.gz
 
