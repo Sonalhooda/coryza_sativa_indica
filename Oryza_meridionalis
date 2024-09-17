@@ -1,3 +1,3 @@
 wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/338/895/GCA_000338895.3_OmerRS3/GCA_000338895.3_OmerRS3_genomic.fna.gz
-wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR190/071/SRR19032671/SRR19032671_1.fastq.gz
-wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR190/071/SRR19032671/SRR19032671_2.fastq.gz
+wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR127/006/SRR12702006/SRR12702006_1.fastq.gz
+wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR127/006/SRR12702006/SRR12702006_2.fastq.gz
