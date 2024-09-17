@@ -1,4 +1,3 @@
 wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/030/770/085/GCA_030770085.1_ASM3077008v1/GCA_030770085.1_ASM3077008v1_genomic.fna.gz 
-wget wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/085/SRR11050985/SRR11050985_1.fastq.gz
-wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR110/085/SRR11050985/SRR11050985_2.fastq.gz
-
+wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR588/009/SRR5889389/SRR5889389_2.fastq.gz
+wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR588/009/SRR5889389/SRR5889389_1.fastq.gz
