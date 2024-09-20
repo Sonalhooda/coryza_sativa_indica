@@ -1,0 +1,7 @@
+
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/034/140/825/GCF_034140825.1_ASM3414082v1/GCF_034140825.1_ASM3414082v1_genomic.fna.gz    // referenec genome downloaded 
+wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR303/092/SRR30304992/SRR30304992_1.fastq.gz
+wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR303/092/SRR30304992/SRR30304992_2.fastq.gz
+  
+
+

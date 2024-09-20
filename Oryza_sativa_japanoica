@@ -1,7 +1,0 @@
-wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/DRR527/DRR527281/DRR527281_2.fastq.gz                // first read file 
-wget -nc ftp://ftp.sra.ebi.ac.uk/vol1/fastq/DRR527/DRR527281/DRR527281_1.fastq.gz                //second read file 
-wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/034/140/825/GCF_034140825.1_ASM3414082v1/GCF_034140825.1_ASM3414082v1_genomic.fna.gz    // referenec genome downloaded 
-nohup bwa index GCF_034140825.1_ASM3414082v1_genomic.fna.gz > bwa_index_log.txt 2>&1 &     ///indexed the reference genome 
- nohup bwa mem GCF_034140825.1_ASM3414082v1_genomic.fna.gz DRR527281_1.fastq.gz DRR527281_2.fastq.gz > aligned_oryza_I_output.sam 2> bwa_mem_error.log &                    ///aligned the paired end reads to the refernece genome 
-
-
